@@ -1,5 +1,14 @@
 ![mqttWithKafkaIntegration](./kafkaWithmqtt.png)
 
+---
+![mqtt explorer use connection screenshot](./mqtt%20explorer%20use%20connection%20screenshot.png)
+
+---
+
+---
+![mqtt with kafka and boot integration output](./mqtt%20with%20kafka%20and%20boot%20integration%20output.png)
+
+---
 🚀 Step-by-Step: Run Spring Boot + Kafka + MQTT + Docker
 
 Docker Compose setup for **Mosquitto (MQTT)**, **Kafka**, and **Zookeeper**, you're ready to run your Spring Boot app and test the full MQTT → Kafka pipeline. Here's a step-by-step guide to get everything working smoothly:
