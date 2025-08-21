@@ -1,0 +1,13 @@
+mqtt:
+  broker: tcp://localhost:1883
+  clientId: vts-mqtt-client
+  username: yourUser
+  password: yourPass
+  topic: vehicle/+/location
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
